@@ -1,0 +1,15 @@
+ro.opengles.version = 131072
+#
+# system.prop for p880
+#
+#
+
+# Common display settings
+ro.sf.lcd_density=320
+debug.sf.hw=1
+persist.sys.ui.hw = 1
+windowsmgr.max_events_per_sec = 240
+
+
+# temporary fix for HDMI output, for videos it works now in correct landscape with this set
+persist.demo.hdmirotation=portrait
